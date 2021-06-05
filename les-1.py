@@ -29,3 +29,8 @@ print(5 >= 1)
 print(5 <= 1)
 print(5 != 1)
 
+# bool    the 0 or empty string ''  mean this is False ather value is True
+
+number = int(input("enter some number: \n"))
+while number < 1 or number > 5:
+    number = int(input("you need enter number between 1 and 5\n"))
